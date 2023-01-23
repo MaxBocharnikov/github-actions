@@ -12,7 +12,6 @@ const App: React.FC = () => {
     <>
       <Header />
       <h4>Counter: {counter}</h4>
-
       <button onClick={handleIncreaseClick}>Increase</button>
     </>
   )
